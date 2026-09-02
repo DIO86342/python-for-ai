@@ -1,0 +1,15 @@
+You now know:
+
+Ridge: shrinks coefficients.
+Lasso: shrinks coefficients and can make them exactly zero.
+Alpha: controls regularization strength.
+Too much alpha: causes underfitting.
+Best alpha: should normally be selected using validation/cross-validation rather than arbitrarily.
+
+
+
+Remember:
+
+Ridge → shrinks coefficients.
+Lasso → can shrink coefficients all the way to 0.
+Elastic Net → does both.
