@@ -1,0 +1,56 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Abdi",
+            "age": 22,
+            "major": "Computer Science",
+            "skills": [
+                "Python",
+                "NumPy",
+                "SQL"
+            ],
+            "gpa": 3.18,
+            "active": true
+        },
+        {
+            "id": 2,
+            "name": "Amina",
+            "age": 21,
+            "major": "Information Technology",
+            "skills": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "gpa": 3.45,
+            "active": true
+        },
+        {
+            "id": 3,
+            "name": "Mohamed",
+            "age": 23,
+            "major": "Software Engineering",
+            "skills": [
+                "Java",
+                "C#",
+                "Django"
+            ],
+            "gpa": 2.95,
+            "active": false
+        },
+        {
+            "id": 4,
+            "name": "Hodan",
+            "age": 20,
+            "major": "Data Science",
+            "skills": [
+                "Python",
+                "Pandas",
+                "Machine Learning"
+            ],
+            "gpa": 3.72,
+            "active": true
+        }
+    ]
+}
