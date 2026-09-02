@@ -1,0 +1,6 @@
+{
+    "name": "Abdikani",
+    "age": 22,
+    "department": "Computer Science",
+    "skills": ["Python", "Django", "PostgreSQL"]
+}
