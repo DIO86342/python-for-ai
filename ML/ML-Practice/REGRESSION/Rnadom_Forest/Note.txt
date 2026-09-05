@@ -1,0 +1,28 @@
+Random Forest Regression 
+    is an ensemble regression algorithm that combines predictions from many decision trees.
+
+
+
+    #Important Random Forest parameters
+You should learn these:
+
+Parameter:	Purpose
+n_estimators:	Number of trees
+max_depth	Maximum depth of each tree
+min_samples_split	Minimum samples required to split
+min_samples_leaf	Minimum samples in a leaf
+max_features	Features considered for each split
+random_state	Makes results reproducible
+
+                 Student Dataset
+                       ↓
+          ┌────────────┼────────────┐
+          ↓            ↓            ↓
+       Ridge      Decision Tree  Random Forest
+          ↓            ↓            ↓
+       R²/MAE/MSE  R²/MAE/MSE    R²/MAE/MSE
+          └────────────┼────────────┘
+                       ↓
+                Compare models
+                       ↓
+              Select best model
