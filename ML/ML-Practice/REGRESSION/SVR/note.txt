@@ -1,0 +1,69 @@
+SVR is a supervised learning algorithm used to predict a continuous numerical target.
+
+2. Core idea
+SVR doesn't try to make every error zero.
+Instead, it tries to find a function where errors smaller than ε are tolerated.
+Error ≤ ε  → not penalized
+Error > ε  → penalized
+    This is called ε-insensitive loss.
+
+
+3. Three important parameters
+Parameter	Meaning
+C:	            Controls how strongly large errors are penalized
+epsilon:    	Size of the tolerance zone
+gamma:	        Controls how strongly individual training points influence the mode
+
+
+
+                        SVR concept
+                            ↓
+                        Linear SVR
+                            ↓
+                        Kernel SVR
+                            ↓
+                        Scaling
+                            ↓
+                        C, epsilon, gamma
+                            ↓
+                        Train + evaluate
+                            ↓
+                        Hyperparameter tuning
+
+    1. epsilon
+
+    Controls the width of the tolerance zone around the regression line.
+
+    Small epsilon → stricter
+    Large epsilon → more tolerance
+    Small epsilon → model tries to fit the data more closely.
+    Large epsilon → ignores more small errors.
+
+
+    2. C
+
+    Controls how much the model penalizes errors outside the epsilon tube.
+
+    Small C → more regularization
+    Large C → tries harder to fit training data
+
+    So:
+
+    Low C → simpler model, potentially underfitting.
+    High C → more complex model, potentially overfitting.
+
+
+    3. gamma
+
+    Important when using nonlinear kernels such as RBF.
+
+    It controls how far the influence of each training point extends.
+
+    Low gamma  → broader influence → smoother model
+    High gamma → local influence   → more complex model
+
+
+    Easy memory trick
+    ε = tolerance
+    C = penalty
+    γ = influence
