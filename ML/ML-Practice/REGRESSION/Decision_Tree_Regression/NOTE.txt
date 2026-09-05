@@ -1,0 +1,17 @@
+The 5 Things You MUST Remember
+
+If you forget everything else, remember these:
+
+1. Decision Tree Regression predicts continuous values.
+
+2. It repeatedly splits data using feature + threshold conditions.
+
+3. Regression trees use squared-error/MSE-based impurity by default in scikit-learn.
+
+4. A leaf's prediction is based on the mean target of the training samples reaching that leaf.
+
+5. Tree depth controls complexity:
+
+Too shallow → Underfitting
+Optimal → Good generalization
+Too deep → Overfitting
