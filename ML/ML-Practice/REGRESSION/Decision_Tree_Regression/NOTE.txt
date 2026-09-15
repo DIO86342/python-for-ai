@@ -15,3 +15,37 @@ If you forget everything else, remember these:
 Too shallow → Underfitting
 Optimal → Good generalization
 Too deep → Overfitting
+
+
+What you've now learned in Regression
+
+You've covered the major models in your planned sequence:
+
+REGRESSION
+│
+├── Linear Regression          ✅
+├── Polynomial Regression      ✅
+├── Ridge Regression           ✅
+├── Decision Tree Regression   ✅
+├── Random Forest Regression   ✅
+├── SVR                        ✅
+├── Gradient Boosting          ✅
+└── XGBoost                    ✅
+
+
+You've also practiced:
+
+Train/test splitting
+Model fitting
+Prediction
+R²
+MAE
+MSE
+Hyperparameters
+GridSearchCV
+Cross-validation
+Overfitting
+Model comparison
+Ensemble learning
+Regularization
+Boosting
