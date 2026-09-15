@@ -1,0 +1,10 @@
+🏆 Final Regression Leaderboard
+
+| Rank | Model                 |      Test R² |        MAE |        MSE |
+| ---- | --------------------- | -----------: | ---------: | ---------: |
+| 🥇   | Linear Regression |   98.87% | 1.6392 | 4.1948 |
+| 🥇   | SVR               |   98.87% | 1.6403 | 4.2001 |
+| 🥉   | XGBoost           | 98.8260% | 1.6767 | 4.3622 |
+| 4    | Gradient Boosting     |     98.8177% |     1.6802 |     4.3930 |
+| 5    | Random Forest         |       98.65% |     1.8021 |     5.0053 |
+| 6    | Decision Tree         |      ~98.36% |          — |          — |

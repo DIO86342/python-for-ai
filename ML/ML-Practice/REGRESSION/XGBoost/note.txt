@@ -1,0 +1,15 @@
+XGBoost = Extreme Gradient Boosting.
+
+Gradient Boosting vs XGBoost
+
+Think of ordinary Gradient Boosting as:
+
+"Build trees sequentially to reduce the loss."
+
+XGBoost goes further:
+
+"Build trees sequentially while optimizing the objective efficiently and explicitly controlling model complexity."
+
+One important difference is regularization.
+
+Regularization helps prevent the model from becoming unnecessarily complex and overfitting the training data.

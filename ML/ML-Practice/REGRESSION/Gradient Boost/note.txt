@@ -1,0 +1,49 @@
+Gradient Boosting is an ensemble machine-learning algorithm 
+    that builds many small decision trees sequentially, 
+    where each new tree tries to correct the errors made by the previous trees.
+
+
+
+Random Forest
+
+Trees are generally built independently:
+
+Tree 1 ──┐
+Tree 2 ──┤
+Tree 3 ──┼──→ Average → Prediction
+Tree 4 ──┤
+Tree 5 ──┘
+Gradient Boosting
+
+Trees are built one after another:
+
+Tree 1 → Tree 2 → Tree 3 → Tree 4 → Final Prediction
+          ↑         ↑
+       corrects   corrects
+        errors     errors
+
+
+
+
+
+
+        
+                Tree 1
+                ↓
+                Makes predictions
+                ↓
+                Finds errors
+                ↓
+                Tree 2 learns those errors
+                ↓
+                Finds remaining errors
+                ↓
+                Tree 3 learns those errors
+                ↓
+                ...
+                ↓
+                Final prediction
+
+
+n_estimators:    Number of trees.
+learning_rate:   Controls how much each new tree contributes.
