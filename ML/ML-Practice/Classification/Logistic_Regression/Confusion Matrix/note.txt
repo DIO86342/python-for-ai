@@ -1,0 +1,27 @@
+The four terms
+
+TP — True Positive
+
+Predicted Pass, actually Pass.
+
+TN — True Negative
+
+Predicted Fail, actually Fail.
+
+FP — False Positive
+
+Predicted Pass, actually Fail.
+
+FN — False Negative
+
+Predicted Fail, actually Pass.
+
+Think of it as:
+
+                 ACTUAL
+              1          0
+           ┌────────┬────────┐
+Predicted 1│   TP   │   FP   │
+           ├────────┼────────┤
+Predicted 0│   FN   │   TN   │
+           └────────┴────────┘

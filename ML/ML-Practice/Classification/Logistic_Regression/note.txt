@@ -1,0 +1,55 @@
+What is Logistic Regression?
+
+Despite the word Regression, Logistic Regression is primarily a classification algorithm.
+
+Its purpose is to estimate the probability that an observation belongs to a class.
+
+
+
+
+Classification metrics
+
+This is where things become different from regression.
+
+For regression, you learned:
+
+R²
+MAE
+MSE
+RMSE
+
+For classification, we'll primarily use:
+
+Accuracy
+Precision
+Recall
+F1-score
+Confusion Matrix
+ROC-AUC
+
+
+Accuracy
+            
+            Accuracy= Correct Predictions / Total Predictions
+
+
+Example:
+
+            100 predictions
+            95 correct
+
+Then:
+
+            Accuracy = 95 / 100 = 95%
+
+But don't rely on accuracy alone. Later you'll see why.
+	​
+
+One important thing
+predict() only gives you the final class:
+model.predict(x_test)
+# [1 0]
+But Logistic Regression can also tell us how confident it is.
+Run:
+    probability = model.predict_proba(x_test)
+    print(probability)

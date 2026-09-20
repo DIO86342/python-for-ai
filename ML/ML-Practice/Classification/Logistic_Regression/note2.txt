@@ -1,0 +1,23 @@
+        Data preprocessing
+            ↓
+        Train/Test Split
+            ↓
+        Logistic Regression
+            ↓
+        predict()
+            ↓
+        predict_proba()
+            ↓
+        Decision Threshold
+            ↓
+        Confusion Matrix
+            ↓
+        Accuracy
+        Precision
+        Recall
+        F1-score
+            ↓
+        KNN
+        Decision Tree
+        Random Forest
+        SVM
